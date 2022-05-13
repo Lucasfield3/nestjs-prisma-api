@@ -6,13 +6,12 @@ import { ConflictInterceptor } from './common/errors/interceptors/conflict.inter
 import { DatabaseInterceptor } from './common/errors/interceptors/database.interceptor';
 import { NotFoundInterceptor } from './common/errors/interceptors/notfound.interceptor';
 import { UnauthorizedInterceptor } from './common/errors/interceptors/unauthorized.interceptor';
-import cors from 'cors';
 //import { HttpExceptionFilter } from './common/filters/http-exception.filter';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  app.use(cors());
+  app.enableCors();
 
   const config = new DocumentBuilder()
     .setTitle('Simple blog')
