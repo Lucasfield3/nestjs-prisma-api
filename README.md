@@ -1,6 +1,6 @@
 # API de criação de posts.
 
-API de Crud de usuários, posts e seus relacionamentos com deploy no heroku.
+API de Crud de usuários, posts e seus relacionamentos, rodando em dois containers do docker e com deploy no heroku.
 
 <div>
   <p>Link da API: <a target="_blank" href='https://apinestjs-prisma-crud.herokuapp.com'>https://apinestjs-prisma-crud.herokuapp.com</a></p>
@@ -13,4 +13,5 @@ API de Crud de usuários, posts e seus relacionamentos com deploy no heroku.
   <img align='center' alt='prisma' height='30' width='55' src='https://cdn.worldvectorlogo.com/logos/prisma-2.svg' />
   <img align='center' title='postgresql' alt='postgresql' height='30' width='40' src='https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/postgresql/postgresql-original.svg' />
   <img align='center' alt='heroku' height='30' width='40' src='https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/heroku/heroku-original.svg' />
+   <img align='center' alt='docker' height='40' width='40' src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original-wordmark.svg' />
 </div>
